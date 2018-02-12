@@ -1,0 +1,29 @@
+Drill report for /home/seth/Documents/Experiments/LZ/8CH_Amplifier/8CH_Amplifier.kicad_pcb
+Created on Wed 06 Dec 2017 11:37:12 PST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file '8CH_Amplifier-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (2334 holes)
+    T2  0.40mm  0.016"  (169 holes)
+    T3  0.80mm  0.031"  (122 holes)
+    T4  1.09mm  0.043"  (4 holes)
+    T5  1.19mm  0.047"  (25 holes)
+    T6  3.05mm  0.120"  (6 holes)
+
+    Total plated holes count 2660
+
+
+Drill file '8CH_Amplifier-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
