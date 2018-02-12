@@ -1,0 +1,1588 @@
+EESchema Schematic File Version 4
+LIBS:8CH_Amplifier-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 44 45
+Title "LZ 8 Channel Amplifier"
+Date "2017-09-10"
+Rev "5"
+Comp "UC Davis / Seth Hillbrand"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4000 3925 0    60   Input ~ 0
+DC_CH1
+Text HLabel 4000 3725 0    60   Input ~ 0
+DC_CH3
+Text HLabel 4000 3525 0    60   Input ~ 0
+DC_CH5
+Text HLabel 4000 3425 0    60   Input ~ 0
+DC_CH6
+Text HLabel 4000 3325 0    60   Input ~ 0
+DC_CH7
+Text HLabel 4000 2525 0    60   Input ~ 0
+V+_IN
+Text HLabel 4000 2625 0    60   Input ~ 0
+V-_IN
+Text HLabel 4000 2725 0    60   Input ~ 0
+I+_IN
+Text HLabel 4000 2825 0    60   Input ~ 0
+I-_IN
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57BD2002
+P 6850 4100
+AR Path="/578415C8/57B7F1AA/57BD2002" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57BD2002" Ref="#PWR0339"  Part="1" 
+F 0 "#PWR0339" H 6850 4100 30  0001 C CNN
+F 1 "(GND)" H 6850 4100 30  0001 C CNN
+F 2 "" H 6850 4100 60  0000 C CNN
+F 3 "" H 6850 4100 60  0000 C CNN
+	1    6850 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4000 3625 0    60   Input ~ 0
+DC_CH4
+Text HLabel 4000 3825 0    60   Input ~ 0
+DC_CH2
+Text HLabel 4000 4025 0    60   Input ~ 0
+DC_CH0
+$Comp
+L LinearTech:LTC6078_[MSOP-8] U?
+U 2 1 57BD2D06
+P 6475 1525
+AR Path="/578415C8/57B7F1AA/57BD2D06" Ref="U?"  Part="2" 
+AR Path="/57F50161/57F4D47B/57BD2D06" Ref="U4406"  Part="2" 
+F 0 "U4406" H 6525 1895 50  0000 C CNN
+F 1 "LTC6078_[MSOP-8]" H 6525 1802 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6475 1275 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/60789fa.pdf" V 6475 1675 60  0001 C CNN
+F 4 "LTC6078CMS8" H 6975 2375 60  0001 C CNN "mpn"
+F 5 "Value" H 6675 2075 60  0001 C CNN "newark#"
+F 6 "LTC6078ACMS8#PBF-ND" H 6775 2175 60  0001 C CNN "digikey#"
+	2    6475 1525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LinearTech:LTC6078_[MSOP-8] U?
+U 1 1 57BD2D6B
+P 6475 900
+AR Path="/578415C8/57B7F1AA/57BD2D6B" Ref="U?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57BD2D6B" Ref="U4406"  Part="1" 
+F 0 "U4406" H 6525 1270 50  0000 C CNN
+F 1 "LTC6078_[MSOP-8]" H 6525 1177 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6475 650 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/60789fa.pdf" V 6475 1050 60  0001 C CNN
+F 4 "LTC6078CMS8" H 6975 1750 60  0001 C CNN "mpn"
+F 5 "Value" H 6675 1450 60  0001 C CNN "newark#"
+F 6 "LTC6078ACMS8#PBF-ND" H 6775 1550 60  0001 C CNN "digikey#"
+	1    6475 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57BD3368
+P 5575 1800
+AR Path="/578415C8/57B7F1AA/57BD3368" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57BD3368" Ref="#PWR0340"  Part="1" 
+F 0 "#PWR0340" H 5575 1800 30  0001 C CNN
+F 1 "(GND)" H 5575 1800 30  0001 C CNN
+F 2 "" H 5575 1800 60  0000 C CNN
+F 3 "" H 5575 1800 60  0000 C CNN
+	1    5575 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57BD33A2
+P 5575 1175
+AR Path="/578415C8/57B7F1AA/57BD33A2" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57BD33A2" Ref="#PWR0341"  Part="1" 
+F 0 "#PWR0341" H 5575 1175 30  0001 C CNN
+F 1 "(GND)" H 5575 1175 30  0001 C CNN
+F 2 "" H 5575 1175 60  0000 C CNN
+F 3 "" H 5575 1175 60  0000 C CNN
+	1    5575 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57E483A9
+P 5425 2375
+AR Path="/578415C8/57B7F1AA/57E483A9" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57E483A9" Ref="#PWR0342"  Part="1" 
+F 0 "#PWR0342" H 5425 2375 30  0001 C CNN
+F 1 "(GND)" H 5425 2375 30  0001 C CNN
+F 2 "" H 5425 2375 60  0000 C CNN
+F 3 "" H 5425 2375 60  0000 C CNN
+	1    5425 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57E4A910
+P 7225 3075
+AR Path="/578415C8/57B7F1AA/57E4A910" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57E4A910" Ref="#PWR0343"  Part="1" 
+F 0 "#PWR0343" H 7225 3075 30  0001 C CNN
+F 1 "(GND)" H 7225 3075 30  0001 C CNN
+F 2 "" H 7225 3075 60  0000 C CNN
+F 3 "" H 7225 3075 60  0000 C CNN
+	1    7225 3075
+	1    0    0    -1  
+$EndComp
+Text HLabel 7975 2700 2    50   Input ~ 0
+SDA
+Text HLabel 8450 2800 2    50   Input ~ 0
+SCL
+$Comp
+L LinearTech:LTC6078_[MSOP-8] U?
+U 3 1 57E4B839
+P 3875 6675
+AR Path="/578415C8/57B7F1AA/57E4B839" Ref="U?"  Part="3" 
+AR Path="/57F50161/57F4D47B/57E4B839" Ref="U4406"  Part="3" 
+F 0 "U4406" H 3925 7045 50  0000 C CNN
+F 1 "LTC6078_[MSOP-8]" H 3925 6952 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 3875 6425 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/60789fa.pdf" V 3875 6825 60  0001 C CNN
+F 4 "LTC6078CMS8" H 4375 7525 60  0001 C CNN "mpn"
+F 5 "Value" H 4075 7225 60  0001 C CNN "newark#"
+F 6 "LTC6078ACMS8#PBF-ND" H 4175 7325 60  0001 C CNN "digikey#"
+	3    3875 6675
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1600 6500 0    50   Input ~ 0
++5V_SENSOR
+Text HLabel 1600 6700 0    50   Input ~ 0
+GND_SENSOR
+$Comp
+L 8CH_Amplifier-rescue:SW_DIP_x3-RESCUE-8CH_Amplifier S4401
+U 1 1 57E4EBDE
+P 5550 4775
+F 0 "S4401" H 5550 5105 50  0000 C CNN
+F 1 "SW_DIP_x3" H 5550 5012 50  0000 C CNN
+F 2 "mech:DIP6-CTS" H 5550 5011 50  0001 C CNN
+F 3 "http://www.ctscorp.com/wp-content/uploads/2016/01/219-Dec-30-2008.pdf" H 5500 4775 50  0001 C CNN
+F 4 "219-3LPSTR" H 5550 4775 60  0001 C CNN "mpn"
+F 5 "CT3115CT-ND" H 5550 4775 60  0001 C CNN "digikey#"
+	1    5550 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L LinearTech:LTC2495 U4405
+U 1 1 57BC8B30
+P 6150 3150
+F 0 "U4405" H 6150 4445 50  0000 C CNN
+F 1 "LTC2495" H 6150 4352 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-38-1EP_5x7mm_Pitch0.5mm" H 6150 4275 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/2495fe.pdf" H 6150 4275 60  0001 C CNN
+F 4 "LTC2495IUHF" H 6650 4300 60  0001 C CNN "mpn"
+F 5 "56M5760" H 6350 4625 60  0001 C CNN "newark#"
+F 6 "LTC2495IUHF#PBF-ND" H 6450 4725 60  0001 C CNN "digikey#"
+	1    6150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57E4F174
+P 5150 4925
+AR Path="/578415C8/57B7F1AA/57E4F174" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57E4F174" Ref="#PWR0345"  Part="1" 
+F 0 "#PWR0345" H 5150 4925 30  0001 C CNN
+F 1 "(GND)" H 5150 4925 30  0001 C CNN
+F 2 "" H 5150 4925 60  0000 C CNN
+F 3 "" H 5150 4925 60  0000 C CNN
+	1    5150 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L _passive:C-3TERM C4403
+U 1 1 57E9BCC0
+P 2700 6500
+F 0 "C4403" H 2700 6713 50  0000 C CNN
+F 1 "C-3TERM" H 2700 6622 50  0000 C CNN
+F 2 "manuf:CAP3-4516X100" H 2690 6475 60  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/NFM41PC155B1E3-01.pdf" H 2700 6629 60  0001 C CNN
+F 4 "NFM41PC155B1E3L" H 2700 6500 60  0001 C CNN "mpn"
+F 5 "49P5423" H 2700 6500 60  0001 C CNN "newark#"
+F 6 "490-6986-1-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    2700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57E9BCC7
+P 2700 6800
+AR Path="/578415C8/57B7F1AA/57E9BCC7" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57E9BCC7" Ref="#PWR0346"  Part="1" 
+F 0 "#PWR0346" H 2700 6800 30  0001 C CNN
+F 1 "(GND)" H 2700 6800 30  0001 C CNN
+F 2 "" H 2700 6800 60  0000 C CNN
+F 3 "" H 2700 6800 60  0000 C CNN
+	1    2700 6800
+	1    0    0    -1  
+$EndComp
+Text Label 4700 6225 0    60   ~ 0
++5V_SENSOR_FILT
+Text Label 6950 2500 0    60   ~ 0
++5V_SENSOR_FILT
+Text Label 7350 3200 0    60   ~ 0
++5V_SENSOR_FILT
+$Comp
+L power1:(GND) #PWR?
+U 1 1 57E9D623
+P 1550 2900
+AR Path="/578415C8/57B7F1AA/57E9D623" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57E9D623" Ref="#PWR0347"  Part="1" 
+F 0 "#PWR0347" H 1550 2900 30  0001 C CNN
+F 1 "(GND)" H 1550 2900 30  0001 C CNN
+F 2 "" H 1550 2900 60  0000 C CNN
+F 3 "" H 1550 2900 60  0000 C CNN
+	1    1550 2900
+	1    0    0    -1  
+$EndComp
+Text Label 925  1700 3    60   ~ 0
++5V_SENSOR_FILT
+Wire Wire Line
+	6850 3325 6850 3425
+Wire Wire Line
+	6850 3325 6750 3325
+Wire Wire Line
+	6750 3425 6850 3425
+Connection ~ 6850 3425
+Wire Wire Line
+	6850 3525 6750 3525
+Connection ~ 6850 3525
+Wire Wire Line
+	6750 3625 6850 3625
+Connection ~ 6850 3625
+Wire Wire Line
+	6750 3725 6850 3725
+Connection ~ 6850 3725
+Wire Wire Line
+	6750 3825 6850 3825
+Connection ~ 6850 3825
+Wire Wire Line
+	6750 3925 6850 3925
+Connection ~ 6850 3925
+Wire Wire Line
+	6750 4025 6850 4025
+Connection ~ 6850 4025
+Wire Wire Line
+	5575 950  5575 900 
+Wire Wire Line
+	5175 900  5575 900 
+Wire Wire Line
+	5850 900  6000 900 
+Wire Wire Line
+	5850 1525 6000 1525
+Wire Wire Line
+	5575 1575 5575 1525
+Wire Wire Line
+	5250 1525 5575 1525
+Wire Wire Line
+	6750 2150 6850 2150
+Wire Wire Line
+	6850 2150 6850 1625
+Wire Wire Line
+	6850 1625 6775 1625
+Wire Wire Line
+	6750 2250 6950 2250
+Wire Wire Line
+	6950 2250 6950 1000
+Wire Wire Line
+	6950 1000 6775 1000
+Wire Wire Line
+	6775 1425 6850 1425
+Wire Wire Line
+	6850 1425 6850 1300
+Wire Wire Line
+	6850 1300 6000 1300
+Wire Wire Line
+	6000 1300 6000 1525
+Connection ~ 6000 1525
+Wire Wire Line
+	6775 800  6850 800 
+Wire Wire Line
+	6850 800  6850 675 
+Wire Wire Line
+	6850 675  6000 675 
+Wire Wire Line
+	6000 675  6000 900 
+Connection ~ 6000 900 
+Wire Wire Line
+	5575 1175 5575 1150
+Wire Wire Line
+	5575 1800 5575 1775
+Wire Wire Line
+	5550 2150 5250 2150
+Wire Wire Line
+	5250 2150 5250 1525
+Connection ~ 5575 1525
+Wire Wire Line
+	5550 2250 5175 2250
+Wire Wire Line
+	5175 2250 5175 900 
+Connection ~ 5575 900 
+Wire Wire Line
+	4125 4025 4000 4025
+Wire Wire Line
+	4125 3925 4000 3925
+Wire Wire Line
+	4125 3825 4000 3825
+Wire Wire Line
+	4125 3725 4000 3725
+Wire Wire Line
+	4125 3625 4000 3625
+Wire Wire Line
+	4125 3525 4000 3525
+Wire Wire Line
+	4125 3425 4000 3425
+Wire Wire Line
+	4125 3325 4000 3325
+Wire Wire Line
+	4325 3325 5550 3325
+Wire Wire Line
+	4325 3425 5550 3425
+Wire Wire Line
+	4325 3525 5550 3525
+Wire Wire Line
+	4325 3625 5550 3625
+Wire Wire Line
+	4325 3725 5550 3725
+Wire Wire Line
+	4325 3825 5550 3825
+Wire Wire Line
+	4325 3925 5550 3925
+Wire Wire Line
+	4325 4025 5550 4025
+Wire Wire Line
+	4000 2825 4125 2825
+Wire Wire Line
+	4125 2725 4000 2725
+Wire Wire Line
+	4000 2625 4125 2625
+Wire Wire Line
+	4125 2525 4000 2525
+Wire Wire Line
+	4325 2525 5550 2525
+Wire Wire Line
+	4325 2625 5550 2625
+Wire Wire Line
+	4325 2725 5550 2725
+Wire Wire Line
+	4325 2825 5550 2825
+Wire Wire Line
+	5425 2375 5425 2350
+Wire Wire Line
+	5425 2350 5550 2350
+Wire Wire Line
+	6750 2500 6950 2500
+Wire Wire Line
+	6750 3100 7100 3100
+Wire Wire Line
+	7100 3100 7100 3000
+Wire Wire Line
+	6750 3000 7100 3000
+Wire Wire Line
+	7225 3000 7225 3075
+Connection ~ 7100 3000
+Wire Wire Line
+	6750 2700 7900 2700
+Wire Wire Line
+	6750 2800 8375 2800
+Wire Wire Line
+	6000 4375 6000 4875
+Wire Wire Line
+	6100 4375 6100 4775
+Wire Wire Line
+	6200 4375 6200 4675
+Wire Wire Line
+	5150 4675 5150 4775
+Wire Wire Line
+	5150 4875 5250 4875
+Wire Wire Line
+	5150 4775 5250 4775
+Connection ~ 5150 4875
+Wire Wire Line
+	5250 4675 5150 4675
+Connection ~ 5150 4775
+Wire Wire Line
+	3100 6225 3875 6225
+Wire Wire Line
+	4700 6225 4700 6575
+Connection ~ 3875 6225
+Wire Wire Line
+	3100 7100 3875 7100
+Wire Wire Line
+	4700 7100 4700 6775
+Connection ~ 3875 7100
+Wire Wire Line
+	2000 6700 2700 6700
+Wire Wire Line
+	2700 6600 2700 6700
+Connection ~ 2700 6700
+Wire Wire Line
+	2600 6500 2000 6500
+Wire Wire Line
+	3100 6500 2800 6500
+Wire Wire Line
+	1800 6500 1600 6500
+Wire Wire Line
+	1800 6700 1600 6700
+Wire Wire Line
+	3100 6700 3100 7100
+Wire Wire Line
+	3100 6225 3100 6500
+Wire Wire Line
+	3875 6275 3875 6225
+Wire Wire Line
+	3875 7100 3875 7075
+Wire Wire Line
+	2350 4100 2425 4100
+Wire Wire Line
+	3325 4100 3325 3225
+Wire Wire Line
+	2350 2000 2400 2000
+Wire Wire Line
+	3325 2000 3325 2925
+$Comp
+L _passive:R R4416
+U 1 1 57E9ABCF
+P 4225 4025
+F 0 "R4416" V 4175 3850 40  0000 C CNN
+F 1 "10k" V 4225 4025 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 4075 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 4075 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 4025 60  0001 C CNN "mpn"
+F 5 "" H 4225 4025 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 4025
+	0    -1   1    0   
+$EndComp
+$Comp
+L power1:PWR_FLAG #PWR?
+U 1 1 57E9C96A
+P 3875 6225
+AR Path="/578415C8/57B7F1AA/57E9C96A" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57E9C96A" Ref="#PWR0348"  Part="1" 
+F 0 "#PWR0348" H 3875 6225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3875 6225 50  0001 C CNN
+F 2 "" H 3875 6225 60  0000 C CNN
+F 3 "" H 3875 6225 60  0000 C CNN
+	1    3875 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 57F0C0CD
+P 5750 1525
+AR Path="/578DD819/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/57F0C0CD" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57F0C0CD" Ref="R4418"  Part="1" 
+F 0 "R4418" V 5550 1525 50  0000 C CNN
+F 1 "1k" V 5641 1525 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 5750 1525 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 5750 1575 60  0001 C CNN
+F 4 "CPF0603F1K0C1" H 6500 2075 60  0001 C CNN "mpn"
+F 5 "51R8602" H 5750 1525 60  0001 C CNN "newark#"
+F 6 "A102226CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    5750 1525
+	0    1    1    0   
+$EndComp
+$Comp
+L _passive:C C4401
+U 1 1 57F0C0D6
+P 5575 1050
+F 0 "C4401" H 5688 1096 50  0000 L CNN
+F 1 "0u1F" H 5688 1005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5565 1025 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5565 1025 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 5575 1050 60  0001 C CNN "mpn"
+F 5 "96M1175" H 5575 1050 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    5575 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L _passive:C C4402
+U 1 1 57F0C34B
+P 5575 1675
+F 0 "C4402" H 5688 1721 50  0000 L CNN
+F 1 "0u1F" H 5688 1630 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5565 1650 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5565 1650 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 5575 1675 60  0001 C CNN "mpn"
+F 5 "96M1175" H 5575 1675 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    5575 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 57F0C541
+P 5750 900
+AR Path="/578DD819/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/57F0C541" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/57F0C541" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/57F0C541" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/57F0C541" Ref="R4417"  Part="1" 
+F 0 "R4417" V 5550 900 50  0000 C CNN
+F 1 "1k" V 5641 900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 5750 900 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 5750 950 60  0001 C CNN
+F 4 "CPF0603F1K0C1" H 6500 1450 60  0001 C CNN "mpn"
+F 5 "51R8602" H 5750 900 60  0001 C CNN "newark#"
+F 6 "A102226CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    5750 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L _passive:C C4404
+U 1 1 57F0E32B
+P 4700 6675
+F 0 "C4404" H 4813 6721 50  0000 L CNN
+F 1 "0u1F" H 4813 6630 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4690 6650 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4690 6650 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 4700 6675 60  0001 C CNN "mpn"
+F 5 "96M1175" H 4700 6675 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4700 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L _passive:R R4415
+U 1 1 57F14D69
+P 4225 3925
+F 0 "R4415" V 4175 3750 40  0000 C CNN
+F 1 "10k" V 4225 3925 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3975 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3975 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3925 60  0001 C CNN "mpn"
+F 5 "" H 4225 3925 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3925
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4414
+U 1 1 57F14E22
+P 4225 3825
+F 0 "R4414" V 4175 3650 40  0000 C CNN
+F 1 "10k" V 4225 3825 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3875 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3875 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3825 60  0001 C CNN "mpn"
+F 5 "" H 4225 3825 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3825
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4413
+U 1 1 57F14E2A
+P 4225 3725
+F 0 "R4413" V 4175 3550 40  0000 C CNN
+F 1 "10k" V 4225 3725 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3775 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3775 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3725 60  0001 C CNN "mpn"
+F 5 "" H 4225 3725 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4412
+U 1 1 57F14F1E
+P 4225 3625
+F 0 "R4412" V 4175 3450 40  0000 C CNN
+F 1 "10k" V 4225 3625 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3675 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3675 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3625 60  0001 C CNN "mpn"
+F 5 "" H 4225 3625 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3625
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4411
+U 1 1 57F14F26
+P 4225 3525
+F 0 "R4411" V 4175 3350 40  0000 C CNN
+F 1 "10k" V 4225 3525 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3575 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3575 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3525 60  0001 C CNN "mpn"
+F 5 "" H 4225 3525 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3525
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4410
+U 1 1 57F14F2E
+P 4225 3425
+F 0 "R4410" V 4175 3250 40  0000 C CNN
+F 1 "10k" V 4225 3425 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3475 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3475 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3425 60  0001 C CNN "mpn"
+F 5 "" H 4225 3425 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3425
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4409
+U 1 1 57F14F36
+P 4225 3325
+F 0 "R4409" V 4175 3150 40  0000 C CNN
+F 1 "10k" V 4225 3325 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 3375 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 3375 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 3325 60  0001 C CNN "mpn"
+F 5 "" H 4225 3325 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 3325
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4404
+U 1 1 57F151F2
+P 4225 2825
+F 0 "R4404" V 4175 2650 40  0000 C CNN
+F 1 "10k" V 4225 2825 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 2875 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 2875 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 2825 60  0001 C CNN "mpn"
+F 5 "" H 4225 2825 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 2825
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4403
+U 1 1 57F151FA
+P 4225 2725
+F 0 "R4403" V 4175 2550 40  0000 C CNN
+F 1 "10k" V 4225 2725 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 2775 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 2775 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 2725 60  0001 C CNN "mpn"
+F 5 "" H 4225 2725 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 2725
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4402
+U 1 1 57F15202
+P 4225 2625
+F 0 "R4402" V 4175 2450 40  0000 C CNN
+F 1 "10k" V 4225 2625 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 2675 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 2675 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 2625 60  0001 C CNN "mpn"
+F 5 "" H 4225 2625 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 2625
+	0    -1   1    0   
+$EndComp
+$Comp
+L _passive:R R4401
+U 1 1 57F1520A
+P 4225 2525
+F 0 "R4401" V 4175 2350 40  0000 C CNN
+F 1 "10k" V 4225 2525 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4225 2575 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 4225 2575 60  0001 C CNN
+F 4 "CPF0603F10KC1" H 4225 2525 60  0001 C CNN "mpn"
+F 5 "" H 4225 2525 60  0001 C CNN "newark#"
+F 6 "A102203CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    4225 2525
+	0    -1   1    0   
+$EndComp
+$Comp
+L AnalogDevices:DS4520 U4408
+U 1 1 5807FEA8
+P 7775 5500
+F 0 "U4408" H 7750 6245 60  0000 C CNN
+F 1 "DS4520" H 7750 6135 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 7725 5500 60  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS4520.pdf" H 7725 5500 60  0001 C CNN
+F 4 "DS4520E+" H 7775 5500 60  0001 C CNN "mpn"
+F 5 "" H 7775 5500 60  0001 C CNN "newark#"
+F 6 "DS4520E+-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    7775 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 5807FF88
+P 7225 5950
+AR Path="/578415C8/57B7F1AA/5807FF88" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/5807FF88" Ref="#PWR0349"  Part="1" 
+F 0 "#PWR0349" H 7225 5950 30  0001 C CNN
+F 1 "(GND)" H 7225 5950 30  0001 C CNN
+F 2 "" H 7225 5950 60  0000 C CNN
+F 3 "" H 7225 5950 60  0000 C CNN
+	1    7225 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7225 5950 7225 5900
+Wire Wire Line
+	7225 5900 7275 5900
+Wire Wire Line
+	6000 5600 7275 5600
+Wire Wire Line
+	6100 5700 7275 5700
+Wire Wire Line
+	6200 5800 7275 5800
+Wire Wire Line
+	7200 5050 7275 5050
+Text Label 7200 5050 2    60   ~ 0
++5V_SENSOR_FILT
+Text HLabel 7275 5250 0    60   Input ~ 0
+SCL
+Text HLabel 7275 5350 0    60   Input ~ 0
+SDA
+Text HLabel 8225 5050 2    60   Output ~ 0
+DO0
+Text HLabel 8225 5150 2    60   Output ~ 0
+DO1
+Text HLabel 8225 5250 2    60   Output ~ 0
+DO2
+Text HLabel 8225 5350 2    60   Output ~ 0
+DO3
+Text HLabel 8225 5450 2    60   Output ~ 0
+DO4
+Text HLabel 8225 5550 2    60   Output ~ 0
+DO5
+Text HLabel 8225 5650 2    60   Output ~ 0
+DO6
+Text HLabel 8225 5750 2    60   Output ~ 0
+DO7
+Text HLabel 8225 5850 2    60   Output ~ 0
+DO8
+$Comp
+L _passive:C C4405
+U 1 1 580E6144
+P 5200 6700
+F 0 "C4405" H 5313 6746 50  0000 L CNN
+F 1 "0u1F" H 5313 6655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5190 6675 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5190 6675 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 5200 6700 60  0001 C CNN "mpn"
+F 5 "96M1175" H 5200 6700 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    5200 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6225 5200 6600
+Connection ~ 4700 6225
+Connection ~ 4700 7100
+$Comp
+L _passive:C C4407
+U 1 1 580F2344
+P 5700 6700
+F 0 "C4407" H 5813 6746 50  0000 L CNN
+F 1 "0u1F" H 5813 6655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5690 6675 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5690 6675 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 5700 6700 60  0001 C CNN "mpn"
+F 5 "96M1175" H 5700 6700 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -450 0   60  0001 C CNN "digikey#"
+	1    5700 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 7100 5700 6800
+Wire Wire Line
+	5850 4675 6200 4675
+Connection ~ 6200 4675
+Wire Wire Line
+	5850 4775 6100 4775
+Connection ~ 6100 4775
+Wire Wire Line
+	5850 4875 6000 4875
+Connection ~ 6000 4875
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 580F3A1D
+P 6375 4575
+AR Path="/578DD819/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/580F3A1D" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/580F3A1D" Ref="R4420"  Part="1" 
+F 0 "R4420" V 6300 4575 50  0000 C CNN
+F 1 "1k" V 6450 4575 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6375 4575 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 6375 4625 60  0001 C CNN
+F 4 "CPF0603F1K0C1" H 7125 5125 60  0001 C CNN "mpn"
+F 5 "51R8602" H 6375 4575 60  0001 C CNN "newark#"
+F 6 "A102226CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    6375 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 580F3BF1
+P 6600 4575
+AR Path="/578DD819/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/580F3BF1" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/580F3BF1" Ref="R4421"  Part="1" 
+F 0 "R4421" V 6675 4575 50  0000 C CNN
+F 1 "1k" V 6525 4575 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6600 4575 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 6600 4625 60  0001 C CNN
+F 4 "CPF0603F1K0C1" H 7350 5125 60  0001 C CNN "mpn"
+F 5 "51R8602" H 6600 4575 60  0001 C CNN "newark#"
+F 6 "A102226CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    6600 4575
+	-1   0    0    1   
+$EndComp
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 580F3C81
+P 6825 4575
+AR Path="/578DD819/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/580F3C81" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/580F3C81" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/580F3C81" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/580F3C81" Ref="R4422"  Part="1" 
+F 0 "R4422" V 6900 4575 50  0000 C CNN
+F 1 "1k" V 6750 4575 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6825 4575 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English" H 6825 4625 60  0001 C CNN
+F 4 "CPF0603F1K0C1" H 7575 5125 60  0001 C CNN "mpn"
+F 5 "51R8602" H 6825 4575 60  0001 C CNN "newark#"
+F 6 "A102226CT-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    6825 4575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 4775 6600 4675
+Wire Wire Line
+	6825 4875 6825 4675
+Wire Wire Line
+	6375 4475 6375 4425
+Wire Wire Line
+	6375 4425 6600 4425
+Wire Wire Line
+	6825 4425 6825 4475
+Wire Wire Line
+	6600 4375 6600 4425
+Text Label 6600 4375 0    60   ~ 0
++5V_SENSOR_FILT
+Connection ~ 6600 4425
+$Comp
+L TexasInstruments:TMP20 U4401
+U 1 1 58168CBA
+P 1950 2000
+F 0 "U4401" H 1950 2350 50  0000 C CNN
+F 1 "TMP20" H 1950 2250 50  0000 C CNN
+F 2 "smd-semi:SC-70-5" H 1900 2000 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tmp20.pdf" H 1950 1400 60  0001 C CNN
+F 4 "TMP20AIDCKT" H 1950 2000 60  0001 C CNN "mpn"
+F 5 "87W5900" H 1950 2000 60  0001 C CNN "newark#"
+	1    1950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3450 2425 3450
+Wire Wire Line
+	3250 3450 3250 3125
+Wire Wire Line
+	2350 2700 2425 2700
+Wire Wire Line
+	3250 2700 3250 3025
+Wire Wire Line
+	1550 2900 1550 2850
+$Comp
+L power1:(GND) #PWR?
+U 1 1 5816C393
+P 1550 2200
+AR Path="/578415C8/57B7F1AA/5816C393" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/5816C393" Ref="#PWR0350"  Part="1" 
+F 0 "#PWR0350" H 1550 2200 30  0001 C CNN
+F 1 "(GND)" H 1550 2200 30  0001 C CNN
+F 2 "" H 1550 2200 60  0000 C CNN
+F 3 "" H 1550 2200 60  0000 C CNN
+	1    1550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2200 1550 2150
+$Comp
+L power1:(GND) #PWR?
+U 1 1 5816C3C3
+P 1550 3650
+AR Path="/578415C8/57B7F1AA/5816C3C3" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/5816C3C3" Ref="#PWR0351"  Part="1" 
+F 0 "#PWR0351" H 1550 3650 30  0001 C CNN
+F 1 "(GND)" H 1550 3650 30  0001 C CNN
+F 2 "" H 1550 3650 60  0000 C CNN
+F 3 "" H 1550 3650 60  0000 C CNN
+	1    1550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3650 1550 3575
+$Comp
+L power1:(GND) #PWR?
+U 1 1 5816C445
+P 1550 4300
+AR Path="/578415C8/57B7F1AA/5816C445" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/5816C445" Ref="#PWR0352"  Part="1" 
+F 0 "#PWR0352" H 1550 4300 30  0001 C CNN
+F 1 "(GND)" H 1550 4300 30  0001 C CNN
+F 2 "" H 1550 4300 60  0000 C CNN
+F 3 "" H 1550 4300 60  0000 C CNN
+	1    1550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4300 1550 4225
+Wire Wire Line
+	925  1700 925  1900
+Wire Wire Line
+	925  1900 1225 1900
+Wire Wire Line
+	925  2600 1250 2600
+Connection ~ 925  1900
+Wire Wire Line
+	925  3350 1250 3350
+Connection ~ 925  2600
+Wire Wire Line
+	925  4000 1250 4000
+Connection ~ 925  3350
+$Comp
+L TexasInstruments:TMP20 U4402
+U 1 1 581806EA
+P 1950 2700
+F 0 "U4402" H 1950 3050 50  0000 C CNN
+F 1 "TMP20" H 1950 2950 50  0000 C CNN
+F 2 "smd-semi:SC-70-5" H 1900 2700 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tmp20.pdf" H 1950 2100 60  0001 C CNN
+F 4 "TMP20AIDCKT" H 1950 2700 60  0001 C CNN "mpn"
+F 5 "87W5900" H 1950 2700 60  0001 C CNN "newark#"
+	1    1950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TexasInstruments:TMP20 U4403
+U 1 1 5818078F
+P 1950 3450
+F 0 "U4403" H 1950 3800 50  0000 C CNN
+F 1 "TMP20" H 1950 3700 50  0000 C CNN
+F 2 "smd-semi:SC-70-5" H 1900 3450 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tmp20.pdf" H 1950 2850 60  0001 C CNN
+F 4 "TMP20AIDCKT" H 1950 3450 60  0001 C CNN "mpn"
+F 5 "87W5900" H 1950 3450 60  0001 C CNN "newark#"
+	1    1950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TexasInstruments:TMP20 U4404
+U 1 1 58180839
+P 1950 4100
+F 0 "U4404" H 1950 4450 50  0000 C CNN
+F 1 "TMP20" H 1950 4350 50  0000 C CNN
+F 2 "smd-semi:SC-70-5" H 1900 4100 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tmp20.pdf" H 1950 3500 60  0001 C CNN
+F 4 "TMP20AIDCKT" H 1950 4100 60  0001 C CNN "mpn"
+F 5 "87W5900" H 1950 4100 60  0001 C CNN "newark#"
+	1    1950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L _passive:CMCHOKE-TDK L4401
+U 1 1 5955F142
+P 1900 6600
+F 0 "L4401" H 1900 6900 50  0000 C CNN
+F 1 "CMCHOKE-TDK" H 1900 6807 50  0000 C CNN
+F 2 "smd-non-ipc:Choke_Common_Mode_SMD_TDK_ACM9070" V 1850 6700 60  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_power_acm9070_en.pdf" V 1850 6700 60  0001 C CNN
+F 4 "ACM9070-701-2PL-TL01" H 1900 6600 60  0001 C CNN "mpn"
+F 5 "" H 1900 6600 60  0001 C CNN "Mouser"
+F 6 "810-ACM90707012PLTL" H 0   0   60  0001 C CNN "mouser#"
+F 7 "445-2216-1-ND" H 0   0   60  0001 C CNN "digikey#"
+	1    1900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _passive:C C4409
+U 1 1 59EED17A
+P 1225 2000
+F 0 "C4409" H 1338 2046 50  0000 L CNN
+F 1 "0u1F" H 1338 1955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1215 1975 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1215 1975 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 1225 2000 60  0001 C CNN "mpn"
+F 5 "96M1175" H 1225 2000 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -3475 -4675 60  0001 C CNN "digikey#"
+	1    1225 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1225 1900
+Wire Wire Line
+	1225 1900 1550 1900
+$Comp
+L _passive:C C4411
+U 1 1 59EED284
+P 1250 2700
+F 0 "C4411" H 1363 2746 50  0000 L CNN
+F 1 "0u1F" H 1363 2655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1240 2675 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1240 2675 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 1250 2700 60  0001 C CNN "mpn"
+F 5 "96M1175" H 1250 2700 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -3450 -3975 60  0001 C CNN "digikey#"
+	1    1250 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 2600
+Wire Wire Line
+	1250 2600 1550 2600
+$Comp
+L _passive:C C4413
+U 1 1 59EED32C
+P 1250 3450
+F 0 "C4413" H 1363 3496 50  0000 L CNN
+F 1 "0u1F" H 1363 3405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1240 3425 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1240 3425 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 1250 3450 60  0001 C CNN "mpn"
+F 5 "96M1175" H 1250 3450 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -3450 -3225 60  0001 C CNN "digikey#"
+	1    1250 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 3350
+Wire Wire Line
+	1250 3350 1550 3350
+$Comp
+L _passive:C C4415
+U 1 1 59EED3DC
+P 1250 4100
+F 0 "C4415" H 1363 4146 50  0000 L CNN
+F 1 "0u1F" H 1363 4055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1240 4075 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1240 4075 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 1250 4100 60  0001 C CNN "mpn"
+F 5 "96M1175" H 1250 4100 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -3450 -2575 60  0001 C CNN "digikey#"
+	1    1250 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 4000
+Wire Wire Line
+	1250 4000 1550 4000
+Wire Wire Line
+	1250 4200 1250 4225
+Wire Wire Line
+	1250 4225 1550 4225
+Connection ~ 1550 4225
+Wire Wire Line
+	1550 4225 1550 4200
+Wire Wire Line
+	1250 3550 1250 3575
+Wire Wire Line
+	1250 3575 1550 3575
+Connection ~ 1550 3575
+Wire Wire Line
+	1550 3575 1550 3550
+Wire Wire Line
+	1250 2800 1250 2850
+Wire Wire Line
+	1250 2850 1550 2850
+Connection ~ 1550 2850
+Wire Wire Line
+	1550 2850 1550 2800
+Wire Wire Line
+	1225 2100 1225 2150
+Wire Wire Line
+	1225 2150 1550 2150
+Connection ~ 1550 2150
+Wire Wire Line
+	1550 2150 1550 2100
+Wire Wire Line
+	2600 2000 2850 2000
+$Comp
+L _passive:R R4406
+U 1 1 59F11660
+P 2525 2700
+F 0 "R4406" V 2675 2675 40  0000 R CNN
+F 1 "150R" V 2600 2775 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" H 2525 2700 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ151V+7+WW" H 2525 2750 60  0001 C CNN
+F 4 "ERJ-3GEYJ151V" H 3275 3250 60  0001 C CNN "mpn"
+F 5 "P150GCT-ND" H -4375 -1375 60  0001 C CNN "digikey#"
+	1    2525 2700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2625 2700 2850 2700
+Wire Wire Line
+	2625 3450 2850 3450
+Wire Wire Line
+	2625 4100 2850 4100
+$Comp
+L _passive:C C4410
+U 1 1 59F17F15
+P 2850 2100
+F 0 "C4410" H 2963 2146 50  0000 L CNN
+F 1 "0u1F" H 2963 2055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2840 2075 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2840 2075 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 2850 2100 60  0001 C CNN "mpn"
+F 5 "96M1175" H 2850 2100 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -2350 -4600 60  0001 C CNN "digikey#"
+	1    2850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 59F17F1B
+P 2850 2250
+AR Path="/578415C8/57B7F1AA/59F17F1B" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/59F17F1B" Ref="#PWR04402"  Part="1" 
+F 0 "#PWR04402" H 2850 2250 30  0001 C CNN
+F 1 "(GND)" H 2850 2250 30  0001 C CNN
+F 2 "" H 2850 2250 60  0000 C CNN
+F 3 "" H 2850 2250 60  0000 C CNN
+	1    2850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2250 2850 2200
+Connection ~ 2850 2000
+Wire Wire Line
+	2850 2000 3325 2000
+$Comp
+L _passive:C C4412
+U 1 1 59F1E753
+P 2850 2800
+F 0 "C4412" H 2963 2846 50  0000 L CNN
+F 1 "0u1F" H 2963 2755 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2840 2775 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2840 2775 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 2850 2800 60  0001 C CNN "mpn"
+F 5 "96M1175" H 2850 2800 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -2350 -3900 60  0001 C CNN "digikey#"
+	1    2850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 59F1E759
+P 2850 2950
+AR Path="/578415C8/57B7F1AA/59F1E759" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/59F1E759" Ref="#PWR04403"  Part="1" 
+F 0 "#PWR04403" H 2850 2950 30  0001 C CNN
+F 1 "(GND)" H 2850 2950 30  0001 C CNN
+F 2 "" H 2850 2950 60  0000 C CNN
+F 3 "" H 2850 2950 60  0000 C CNN
+	1    2850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2950 2850 2900
+Connection ~ 2850 2700
+Wire Wire Line
+	2850 2700 3250 2700
+$Comp
+L _passive:C C4414
+U 1 1 59F2522B
+P 2850 3550
+F 0 "C4414" H 2963 3596 50  0000 L CNN
+F 1 "0u1F" H 2963 3505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2840 3525 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2840 3525 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 2850 3550 60  0001 C CNN "mpn"
+F 5 "96M1175" H 2850 3550 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -2350 -3150 60  0001 C CNN "digikey#"
+	1    2850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 59F25231
+P 2850 3700
+AR Path="/578415C8/57B7F1AA/59F25231" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/59F25231" Ref="#PWR04404"  Part="1" 
+F 0 "#PWR04404" H 2850 3700 30  0001 C CNN
+F 1 "(GND)" H 2850 3700 30  0001 C CNN
+F 2 "" H 2850 3700 60  0000 C CNN
+F 3 "" H 2850 3700 60  0000 C CNN
+	1    2850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3700 2850 3650
+Connection ~ 2850 3450
+Wire Wire Line
+	2850 3450 3250 3450
+$Comp
+L _passive:C C4416
+U 1 1 59F2BF8D
+P 2850 4200
+F 0 "C4416" H 2963 4246 50  0000 L CNN
+F 1 "0u1F" H 2963 4155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2840 4175 60  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2840 4175 60  0001 C CNN
+F 4 "0603YC104JAT2A" H 2850 4200 60  0001 C CNN "mpn"
+F 5 "96M1175" H 2850 4200 60  0001 C CNN "newark#"
+F 6 "478-3726-1-ND" H -2350 -2500 60  0001 C CNN "digikey#"
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:(GND) #PWR?
+U 1 1 59F2BF93
+P 2850 4350
+AR Path="/578415C8/57B7F1AA/59F2BF93" Ref="#PWR?"  Part="1" 
+AR Path="/57F50161/57F4D47B/59F2BF93" Ref="#PWR04405"  Part="1" 
+F 0 "#PWR04405" H 2850 4350 30  0001 C CNN
+F 1 "(GND)" H 2850 4350 30  0001 C CNN
+F 2 "" H 2850 4350 60  0000 C CNN
+F 3 "" H 2850 4350 60  0000 C CNN
+	1    2850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4350 2850 4300
+Connection ~ 2850 4100
+Wire Wire Line
+	2850 4100 3325 4100
+Wire Wire Line
+	3325 2925 5550 2925
+Wire Wire Line
+	3250 3025 5550 3025
+Wire Wire Line
+	3250 3125 5550 3125
+Wire Wire Line
+	3325 3225 5550 3225
+$Comp
+L _passive:R R4405
+U 1 1 59F8EF0B
+P 2500 2000
+F 0 "R4405" V 2650 1975 40  0000 R CNN
+F 1 "150R" V 2575 2075 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" H 2500 2000 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ151V+7+WW" H 2500 2050 60  0001 C CNN
+F 4 "ERJ-3GEYJ151V" H 3250 2550 60  0001 C CNN "mpn"
+F 5 "P150GCT-ND" H -4400 -2075 60  0001 C CNN "digikey#"
+	1    2500 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L _passive:R R4407
+U 1 1 59F8EFB5
+P 2525 3450
+F 0 "R4407" V 2675 3425 40  0000 R CNN
+F 1 "150R" V 2600 3525 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" H 2525 3450 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ151V+7+WW" H 2525 3500 60  0001 C CNN
+F 4 "ERJ-3GEYJ151V" H 3275 4000 60  0001 C CNN "mpn"
+F 5 "P150GCT-ND" H -4375 -625 60  0001 C CNN "digikey#"
+	1    2525 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L _passive:R R4408
+U 1 1 59F8F081
+P 2525 4100
+F 0 "R4408" V 2675 4075 40  0000 R CNN
+F 1 "150R" V 2600 4175 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603" H 2525 4100 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ151V+7+WW" H 2525 4150 60  0001 C CNN
+F 4 "ERJ-3GEYJ151V" H 3275 4650 60  0001 C CNN "mpn"
+F 5 "P150GCT-ND" H -4375 25  60  0001 C CNN "digikey#"
+	1    2525 4100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6850 3425 6850 3525
+Wire Wire Line
+	6850 3525 6850 3625
+Wire Wire Line
+	6850 3625 6850 3725
+Wire Wire Line
+	6850 3725 6850 3825
+Wire Wire Line
+	6850 3825 6850 3925
+Wire Wire Line
+	6850 3925 6850 4025
+Wire Wire Line
+	6850 4025 6850 4100
+Wire Wire Line
+	6000 1525 6075 1525
+Wire Wire Line
+	6000 900  6075 900 
+Wire Wire Line
+	5575 1525 5650 1525
+Wire Wire Line
+	5575 900  5650 900 
+Wire Wire Line
+	7100 3000 7225 3000
+Wire Wire Line
+	5150 4875 5150 4925
+Wire Wire Line
+	5150 4775 5150 4875
+Wire Wire Line
+	3875 6225 4700 6225
+Wire Wire Line
+	3875 7100 4700 7100
+Wire Wire Line
+	2700 6700 3100 6700
+Wire Wire Line
+	2700 6700 2700 6800
+Wire Wire Line
+	4700 6225 5200 6225
+Wire Wire Line
+	4700 7100 5200 7100
+Wire Wire Line
+	6200 4675 6200 5800
+Wire Wire Line
+	6200 4675 6375 4675
+Wire Wire Line
+	6100 4775 6100 5700
+Wire Wire Line
+	6100 4775 6600 4775
+Wire Wire Line
+	6000 4875 6000 5600
+Wire Wire Line
+	6000 4875 6825 4875
+Wire Wire Line
+	6600 4425 6825 4425
+Wire Wire Line
+	6600 4425 6600 4475
+Wire Wire Line
+	925  1900 925  2600
+Wire Wire Line
+	925  2600 925  3350
+Wire Wire Line
+	925  3350 925  4000
+Wire Wire Line
+	8375 2675 8375 2800
+Connection ~ 8375 2800
+Wire Wire Line
+	8375 2800 8450 2800
+Wire Wire Line
+	7900 2700 7900 2675
+Connection ~ 7900 2700
+Wire Wire Line
+	7900 2700 7975 2700
+Wire Wire Line
+	7900 2475 7900 2400
+Wire Wire Line
+	7900 2400 8150 2400
+Wire Wire Line
+	8375 2400 8375 2475
+Text Label 8150 2325 0    60   ~ 0
++5V_SENSOR_FILT
+Wire Wire Line
+	8150 2400 8150 2325
+Connection ~ 8150 2400
+Wire Wire Line
+	8150 2400 8375 2400
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 5A378762
+P 7900 2575
+AR Path="/578DD819/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/5A378762" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/5A378762" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/5A378762" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/5A378762" Ref="R4419"  Part="1" 
+F 0 "R4419" V 7825 2575 50  0000 C CNN
+F 1 "DNP" V 7975 2575 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7900 2575 50  0001 C CNN
+F 3 "" H 7900 2625 60  0001 C CNN
+	1    7900 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L pasv-res:R-0402 R?
+U 1 1 5A378B38
+P 8375 2575
+AR Path="/578DD819/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C3DD1/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C4FDD/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C4FE9/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C6AC5/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C6AD1/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C6ADD/5A378B38" Ref="R?"  Part="1" 
+AR Path="/579C6AE9/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C01CEB/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C1272D/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C12B0A/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C12B0F/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C1375C/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C13761/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C13766/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57C1376B/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E99CCF/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E9A2F9/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E9A2FF/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E9B5B0/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E9B5B6/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E9B5BC/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57E9B5C2/57C02F7E/5A378B38" Ref="R?"  Part="1" 
+AR Path="/578415C8/57B7F1AA/5A378B38" Ref="R?"  Part="1" 
+AR Path="/57F50161/57F4D47B/5A378B38" Ref="R4423"  Part="1" 
+F 0 "R4423" V 8300 2575 50  0000 C CNN
+F 1 "DNP" V 8450 2575 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 8375 2575 50  0001 C CNN
+F 3 "" H 8375 2625 60  0001 C CNN
+	1    8375 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3200 7350 3200
+Wire Wire Line
+	5200 6225 5700 6225
+Wire Wire Line
+	5700 6225 5700 6600
+Connection ~ 5200 6225
+Wire Wire Line
+	5700 7100 5200 7100
+Wire Wire Line
+	5200 6800 5200 7100
+Connection ~ 5200 7100
+$EndSCHEMATC
