@@ -1,0 +1,1318 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "768afcce-3fa5-4551-90f8-8108007ae001")
+	(paper "A4")
+	(title_block
+		(title "LZ 8 Channel Amplifier")
+		(date "2017-09-10")
+		(rev "5")
+		(company "UC Davis / Seth Hillbrand")
+	)
+	(lib_symbols)
+	(junction
+		(at 163.83 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc97081-1c7e-4900-a56e-9e1442a018bb")
+	)
+	(junction
+		(at 138.43 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fe682b5-0d56-4312-812d-ec62a0b3b277")
+	)
+	(junction
+		(at 179.07 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a1e957-d766-42b3-8644-6143e2ac8433")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.675) (xy 189.23 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ab8a71-fc96-4870-9160-c18041ea8b98")
+	)
+	(wire
+		(pts
+			(xy 167.005 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f62855-c869-466b-bc44-e9b8136f367f")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22795650-a23b-4693-b142-59541c0e8d1b")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 174.625 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cf9f7d-21a7-411f-99d6-0f148fb2cfcb")
+	)
+	(wire
+		(pts
+			(xy 169.545 74.93) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51646dac-d97d-4413-a8b2-17eecb552fdb")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.675) (xy 189.23 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d2c912-c8ab-428b-82cc-d4ff255a0e18")
+	)
+	(wire
+		(pts
+			(xy 179.07 95.25) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5698791b-1ef1-45f0-abdc-e259ecc80003")
+	)
+	(wire
+		(pts
+			(xy 137.16 92.075) (xy 138.43 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c44ff83-ab20-4a42-bac8-77d5162db03d")
+	)
+	(wire
+		(pts
+			(xy 138.43 78.74) (xy 138.43 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689ead6a-9bbb-4cd6-ac9f-503e0f549a19")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ff1709-61e6-4fb2-b97c-268985b3dd25")
+	)
+	(wire
+		(pts
+			(xy 167.005 113.665) (xy 167.005 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ea2ec1-3f22-4cde-bfd0-f951a6680f31")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 163.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87558849-9be7-4bb8-a469-08941e1cc473")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9b3ed4-2ba9-4a04-befc-ec325ee9b168")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 179.07 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcb8b22-1f60-48cf-978c-274153af64d0")
+	)
+	(wire
+		(pts
+			(xy 163.83 74.93) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93cf6e9-f692-4a43-850b-2039ca2af130")
+	)
+	(wire
+		(pts
+			(xy 132.08 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5ebbbf-e1fa-4fbf-a75f-031014b91238")
+	)
+	(wire
+		(pts
+			(xy 179.07 83.185) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af816609-3073-4f51-aad0-743cb353b591")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c6d75c-2092-42c1-9e19-98a0c9ad95cc")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.075) (xy 138.43 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95472dc-0194-4dd4-9960-e0095805fe63")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 179.07 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2aac44-ac5a-4d11-809a-f80358c0a8d0")
+	)
+	(wire
+		(pts
+			(xy 133.35 113.665) (xy 167.005 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc6f9db-c93d-4d1d-9db5-fa647ecc83df")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d23475-c506-4e81-94db-415a42af748a")
+	)
+	(wire
+		(pts
+			(xy 163.83 63.5) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded71f86-338c-4189-9d8c-dbc3f6cf2c98")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67f91c7-2e70-4db4-a641-4ef2f7186324")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.265) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a65b5f-e9ba-4e24-b9e8-c629c96456cb")
+	)
+	(hierarchical_label "ALERT_LED"
+		(shape input)
+		(at 137.16 92.075 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "09234236-5d4f-4178-9192-955cea6000be")
+	)
+	(hierarchical_label "+6V5_IN"
+		(shape input)
+		(at 132.08 63.5 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "a967c7cf-c431-44e7-b9de-e8f70ce836fd")
+	)
+	(hierarchical_label "-6V5_IN"
+		(shape input)
+		(at 133.35 113.665 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "ae21f0d1-e430-4065-8be8-d6c65ae3d943")
+	)
+	(symbol
+		(lib_id "semi-diode-generic:BZX84")
+		(at 163.83 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1cd2")
+		(property "Reference" "DZ4501"
+			(at 165.862 66.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZX384"
+			(at 165.862 68.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "smd-semi:SOD-323"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BZX384_SERIES.pdf"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "BZX384-B4V7,115"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "1727-3660-1-ND"
+			(at 163.83 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8CH_Amplifier"
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "DZ4501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_passive:R")
+		(at 172.085 74.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1cdb")
+		(property "Reference" "R4503"
+			(at 174.625 73.025 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 173.99 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_0603"
+			(at 172.085 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English"
+			(at 173.355 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.085 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RP73PF1J100RBTDF"
+			(at 186.055 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" ""
+			(at 172.085 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "A110012CT-ND"
+			(at 97.155 247.015 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8CH_Amplifier"
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "R4503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_passive:R")
+		(at 179.07 80.645 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1ce4")
+		(property "Reference" "R4504"
+			(at 181.61 83.185 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 177.165 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_0603"
+			(at 179.07 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773272&DocType=DS&DocLang=English"
+			(at 179.07 81.915 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RP73PF1J100RBTDF"
+			(at 198.12 94.615 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" ""
+			(at 179.07 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "A110012CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8CH_Amplifier"
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "R4504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_semi:NMOS")
+		(at 177.8 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1ced")
+		(property "Reference" "Q4502"
+			(at 181.0766 72.4662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS123"
+			(at 181.0766 74.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+			(at 181.0766 73.2282 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/BS/BSS123L.pdf"
+			(at 181.0766 76.0222 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "BSS123L"
+			(at 181.0766 78.8162 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "newark#" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "BSS123LCT-ND"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8CH_Amplifier"
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "Q4502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:(GND)")
+		(at 189.23 69.215 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1cf4")
+		(property "Reference" "#PWR0353"
+			(at 189.23 69.215 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "(GND)"
+			(at 189.23 69.215 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 69.215 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 69.215 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057f4a4b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "#PWR0353")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-0402")
+		(at 163.83 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1cfc")
+		(property "Reference" "R4502"
+			(at 168.91 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 166.5986 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_0603"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CPF0603F100KC1"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" ""
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "A119912CT-ND"
+			(at 327.66 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057f4a4b7"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "R4502")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057c01ceb/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057c01ceb/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e99ccf/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e99ccf/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9a2f9/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9a2f9/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9a2ff/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9a2ff/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5b0/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5b0/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5b6/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5b6/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5bc/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5bc/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5c2/00000000-0000-0000-0000-000057c02f7e"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057e9b5c2/00000000-0000-0000-0000-000057c02f90"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:(GND)")
+		(at 163.83 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1d06")
+		(property "Reference" "#PWR0354"
+			(at 163.83 88.265 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "(GND)"
+			(at 163.83 88.265 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 88.265 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 88.265 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057f4a4b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "#PWR0354")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_semi:NMOS")
+		(at 173.99 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1d1e")
+		(property "Reference" "Q4501"
+			(at 173.99 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS123"
+			(at 173.99 104.5972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+			(at 173.5582 101.0666 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/BS/BSS123L.pdf"
+			(at 176.3522 101.0666 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "BSS123L"
+			(at 179.1462 101.0666 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "newark#" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "BSS123LCT-ND"
+			(at 271.78 -76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8CH_Amplifier"
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "Q4501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "semi-opto-generic:LED-DUAL")
+		(at 179.07 87.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b1d27")
+		(property "Reference" "D4501"
+			(at 185.5216 86.5886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "553-0121"
+			(at 185.5216 88.9508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pth-semi:LED-DIALIGHT-553"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.dialight.com/Assets/Drawings/2D_Drawings_DrawingDetailedSpec/C17277.pdf"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "5530121F"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "30K2195"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "350-1822-ND"
+			(at 0 175.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057f4a4b7"
+					(reference "DS?")
+					(unit 2)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "D4501")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_passive:R")
+		(at 138.43 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580b449a")
+		(property "Reference" "R4501"
+			(at 140.335 78.105 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470R"
+			(at 136.525 78.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_0603"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200&DocType=DS&DocLang=English"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW0603470RJNEA"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "59M6817"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "A103101TR-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "8CH_Amplifier"
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "R4501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "semi-opto-generic:LED-DUAL")
+		(at 138.43 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000580e7e21")
+		(property "Reference" "D4501"
+			(at 144.8816 87.2236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "553-0121"
+			(at 144.8816 89.5858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pth-semi:LED-DIALIGHT-553"
+			(at 138.43 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.dialight.com/Assets/Drawings/2D_Drawings_DrawingDetailedSpec/C17277.pdf"
+			(at 138.43 88.265 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "5530121F"
+			(at 138.43 94.615 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "newark#" "30K2195"
+			(at 138.43 88.265 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey#" "350-1822-ND"
+			(at 0 176.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-000057f4a4b7"
+					(reference "D?")
+					(unit 2)
+				)
+				(path "/f89efb00-3378-4f88-9ec9-2a1aa21f73ef/00000000-0000-0000-0000-0000580af358"
+					(reference "D4501")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
