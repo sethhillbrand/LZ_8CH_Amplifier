@@ -2193,7 +2193,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000057f50161")
 		(property "Sheetname" "LZ8CH External Connectors"
-			(at 28.702 50.7234 0)
+			(at 27.178 51.2314 0)
 			(effects
 				(font
 					(size 1.524 1.524)
