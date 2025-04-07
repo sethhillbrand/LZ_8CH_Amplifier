@@ -2184,7 +2184,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0)
 			(type solid)
@@ -2194,7 +2193,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000057f50161")
 		(property "Sheetname" "LZ8CH External Connectors"
-			(at 27.94 51.2314 0)
+			(at 28.702 50.7234 0)
 			(effects
 				(font
 					(size 1.524 1.524)
